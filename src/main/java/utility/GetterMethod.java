@@ -31,5 +31,12 @@ public class GetterMethod {
     }
       return value;
   }
+    public String getPackage(String pack) {
+        String[] packs = pack.split("\\.");
+        return packs[1];
+    }
+  public File getFilePath(String page, String pack){
+        return new File("Properties"+File.separator+pack+File.separator+page+".properties");
+  }
 
 }

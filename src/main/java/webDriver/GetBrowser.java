@@ -9,7 +9,7 @@ public class GetBrowser extends GenericBaseClass {
 
     protected WebDriver browserFactory(String browser)
     {
-        switch (browser) {
+        switch(browser) {
 
             case "chrome":
 
