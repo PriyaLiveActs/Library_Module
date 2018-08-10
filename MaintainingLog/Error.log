@@ -1,0 +1,50 @@
+2018-08-10 13:42:09,597 +0530 [main] INFO  (TestSteps.java:49) - Open Define Author page , Now chck whether menyu is opened or not
+2018-08-10 13:42:09,686 +0530 [main] INFO  (DefineAuthor.java:73) - Entered in checkmenu status. Now the class attribute value is 
+2018-08-10 13:42:09,686 +0530 [main] INFO  (GenericPageMethods.java:16) - Nothing is opened
+2018-08-10 13:42:09,686 +0530 [main] INFO  (DefineAuthor.java:80) - Not to do anything just hit author menu now 
+2018-08-10 13:42:12,292 +0530 [main] INFO  (TestSteps.java:62) - Entered Input To Field 10th KING
+2018-08-10 13:42:15,294 +0530 [main] INFO  (DefineAuthor.java:39) - Entered text entering method
+2018-08-10 13:42:15,661 +0530 [main] INFO  (TestSteps.java:71) - HIT SAVE NOW 
+2018-08-10 13:42:23,946 +0530 [main] INFO  (DefineAuthor.java:46) - Entered validate savetext method 
+2018-08-10 13:42:33,076 +0530 [main] INFO  (VerifyValidation.java:31) - Entered validatefield method 
+2018-08-10 13:42:36,486 +0530 [main] INFO  (ScreenshotsMethods.java:20) - Screenshot name src/main/resources/screenshots/\DefineAuthor\20180810_134236.png
+2018-08-10 13:49:24,905 +0530 [main] INFO  (TestSteps.java:49) - Open Define Author page , Now chck whether menyu is opened or not
+2018-08-10 13:49:24,963 +0530 [main] INFO  (DefineAuthor.java:73) - Entered in checkmenu status. Now the class attribute value is 
+2018-08-10 13:49:24,963 +0530 [main] INFO  (GenericPageMethods.java:16) - Nothing is opened
+2018-08-10 13:49:24,963 +0530 [main] INFO  (DefineAuthor.java:80) - Not to do anything just hit author menu now 
+2018-08-10 13:49:27,539 +0530 [main] INFO  (TestSteps.java:62) - Entered Input To Field 10th KING
+2018-08-10 13:49:30,540 +0530 [main] INFO  (DefineAuthor.java:39) - Entered text entering method
+2018-08-10 13:49:30,811 +0530 [main] INFO  (TestSteps.java:71) - HIT SAVE NOW 
+2018-08-10 13:49:39,150 +0530 [main] INFO  (DefineAuthor.java:46) - Entered validate savetext method 
+2018-08-10 13:49:48,227 +0530 [main] INFO  (VerifyValidation.java:31) - Entered validatefield method 
+2018-08-10 13:49:51,564 +0530 [main] INFO  (ScreenshotsMethods.java:20) - Screenshot name src/main/resources/screenshots/\DefineAuthor\20180810_134951.png
+2018-08-10 13:58:22,051 +0530 [main] INFO  (TestSteps.java:49) - Open Define Author page , Now chck whether menyu is opened or not
+2018-08-10 13:58:22,100 +0530 [main] INFO  (DefineAuthor.java:73) - Entered in checkmenu status. Now the class attribute value is 
+2018-08-10 13:58:22,101 +0530 [main] INFO  (GenericPageMethods.java:16) - Nothing is opened
+2018-08-10 13:58:22,101 +0530 [main] INFO  (DefineAuthor.java:80) - Not to do anything just hit author menu now 
+2018-08-10 13:58:24,690 +0530 [main] INFO  (TestSteps.java:62) - Entered Input To Field 10th KING
+2018-08-10 13:58:27,690 +0530 [main] INFO  (DefineAuthor.java:39) - Entered text entering method
+2018-08-10 13:58:27,870 +0530 [main] INFO  (TestSteps.java:71) - HIT SAVE NOW 
+2018-08-10 13:58:36,126 +0530 [main] INFO  (DefineAuthor.java:46) - Entered validate savetext method 
+2018-08-10 13:58:45,201 +0530 [main] INFO  (VerifyValidation.java:31) - Entered validatefield method 
+2018-08-10 13:58:48,532 +0530 [main] INFO  (ScreenshotsMethods.java:20) - Screenshot name src/main/resources/screenshots/\DefineAuthor\20180810_135848.png
+2018-08-10 15:30:00,885 +0530 [main] INFO  (TestSteps.java:49) - Open Define Author page , Now chck whether menyu is opened or not
+2018-08-10 15:30:00,987 +0530 [main] INFO  (DefineAuthor.java:73) - Entered in checkmenu status. Now the class attribute value is 
+2018-08-10 15:30:00,988 +0530 [main] INFO  (GenericPageMethods.java:16) - Nothing is opened
+2018-08-10 15:30:00,988 +0530 [main] INFO  (DefineAuthor.java:80) - Not to do anything just hit author menu now 
+2018-08-10 15:30:03,503 +0530 [main] INFO  (TestSteps.java:62) - Entered Input To Field 10th KING
+2018-08-10 15:30:06,504 +0530 [main] INFO  (DefineAuthor.java:39) - Entered text entering method
+2018-08-10 15:30:07,389 +0530 [main] INFO  (TestSteps.java:71) - HIT SAVE NOW 
+2018-08-10 15:30:15,759 +0530 [main] INFO  (DefineAuthor.java:46) - Entered validate savetext method 
+2018-08-10 15:30:24,830 +0530 [main] INFO  (VerifyValidation.java:31) - Entered validatefield method 
+2018-08-10 15:30:28,186 +0530 [main] INFO  (ScreenshotsMethods.java:20) - Screenshot name src/main/resources/screenshots/\DefineAuthor\20180810_153027.png
+2018-08-10 15:31:15,385 +0530 [main] INFO  (TestSteps.java:49) - Open Define Author page , Now chck whether menyu is opened or not
+2018-08-10 15:31:15,423 +0530 [main] INFO  (DefineAuthor.java:73) - Entered in checkmenu status. Now the class attribute value is 
+2018-08-10 15:31:15,423 +0530 [main] INFO  (GenericPageMethods.java:16) - Nothing is opened
+2018-08-10 15:31:15,423 +0530 [main] INFO  (DefineAuthor.java:80) - Not to do anything just hit author menu now 
+2018-08-10 15:31:17,757 +0530 [main] INFO  (TestSteps.java:62) - Entered Input To Field John.Snow@
+2018-08-10 15:31:20,757 +0530 [main] INFO  (DefineAuthor.java:39) - Entered text entering method
+2018-08-10 15:31:20,936 +0530 [main] INFO  (TestSteps.java:71) - HIT SAVE NOW 
+2018-08-10 15:31:29,114 +0530 [main] INFO  (DefineAuthor.java:46) - Entered validate savetext method 
+2018-08-10 15:31:38,178 +0530 [main] INFO  (VerifyValidation.java:31) - Entered validatefield method 
+2018-08-10 15:31:41,524 +0530 [main] INFO  (ScreenshotsMethods.java:20) - Screenshot name src/main/resources/screenshots/\DefineAuthor\20180810_153141.png

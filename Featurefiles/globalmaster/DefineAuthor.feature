@@ -1,10 +1,6 @@
 Feature: Define Author
 
-  Background: Launch Url and Go to library section from dashboard
 
-    Given Go to url
-    When user enter username and pasword and click login
-    Then for correct credentials it logged IN then hit go to library
     @scenario2
     Scenario: To Test the validation messages after hitting save button when all the fields are left blank
     When User Open Define Author page
@@ -18,12 +14,8 @@ Feature: Define Author
 
       Examples:
         |AuthorName|
-        |Jimme Lannister|
-        |Sansa Stark12|
-        |A.Tille Bozman & Roy Pascal|
-        |John.Snow@|
-        |Zinkin Tayor's|
         |10th KING|
+        |John.Snow@|
     @scenario3
      Scenario Outline: To test the Length of Author Field as its Max length is 50 Characters
        When User Open Define Author Page

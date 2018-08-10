@@ -1,0 +1,12 @@
+Feature: Define Author
+
+  Background: Launch Url and Go to library section from dashboard    [90m# Featurefiles/globalmaster/DefineAuthor.feature:3[0m
+    [32mGiven [0m[32mGo to url[0m                                                  [90m# GlobalSteps.goToUrl()[0m
+    [32mWhen [0m[32muser enter username and pasword and click login[0m             [90m# GlobalSteps.userEnterUsernameAndPaswordAndClickLogin()[0m
+    [32mThen [0m[32mfor correct credentials it logged IN then hit go to library[0m [90m# GlobalSteps.forCorrectCredentialsItLoggedINThenHitGoToLibrary()[0m
+
+  @scenario1
+  Scenario: To Test the validation messages after hitting save button when all the fields are left blank [90m# Featurefiles/globalmaster/DefineAuthor.feature:9[0m
+    [32mWhen [0m[32mUser Open Define Author page[0m                                                                    [90m# TestSteps.user_Open_Define_Author_page()[0m
+    [32mAnd [0m[32mhit Save Button[0m                                                                                  [90m# TestSteps.hit_Save_Button()[0m
+    [32mThen [0m[32mVerify the error messages[0m                                                                       [90m# TestSteps.verify_the_error_messages()[0m

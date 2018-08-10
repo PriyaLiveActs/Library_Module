@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.92317">
+<testcase classname="Define Author" name="To Test the validation messages after hitting save button when all the fields are left blank" time="27.92317">
+<system-out><![CDATA[Given Go to url.............................................................passed
+When user enter username and pasword and click login........................passed
+Then for correct credentials it logged IN then hit go to library............passed
+When User Open Define Author page...........................................passed
+And hit Save Button.........................................................passed
+Then Verify the error messages..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

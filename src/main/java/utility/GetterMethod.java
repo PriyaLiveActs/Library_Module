@@ -17,7 +17,7 @@ public class GetterMethod {
     if(file.exists()){
         try
         {
-            FileInputStream stream = new FileInputStream(file);
+           FileInputStream stream = new FileInputStream(file);
             //FileReader reader = new FileReader(file);
             prop.load(stream);
             value=prop.getProperty(key);

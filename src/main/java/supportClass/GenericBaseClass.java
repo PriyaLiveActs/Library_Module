@@ -1,5 +1,6 @@
 package supportClass;
 
+import utility.GenericPageMethods;
 import utility.GetterMethod;
 import utility.ScreenshotsMethods;
 import utility.VerifyValidation;
@@ -19,4 +20,5 @@ public class GenericBaseClass {
    public static File locatorsfile = new File("Properties/Locators.properties");
    public static ScreenshotsMethods screenshot= new ScreenshotsMethods();
    public static VerifyValidation validation = new VerifyValidation();
+   public static GenericPageMethods genericPageMethods = new GenericPageMethods();
 }

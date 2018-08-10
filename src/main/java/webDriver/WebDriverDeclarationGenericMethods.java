@@ -27,9 +27,10 @@ public class WebDriverDeclarationGenericMethods {
     private WebDriver getDriver() {
         GetBrowser browser = new GetBrowser();
         if (driver == null) {
+            System.out.println("browser is null ");
             browser.browserFactory("chrome");
         } else {
-            System.out.println("browser already assigned");
+           System.out.println("browser already assigned");
         }
         return driver;
     }
@@ -85,8 +86,15 @@ public class WebDriverDeclarationGenericMethods {
         getDriver().manage().window().maximize();
     }
 
-    public void getUrl(String url) {
+    public void getUrl(String url) throws Exception {
+        implicitWait();
+        Thread.sleep(3000);
         getDriver().get(url);
+       /* implicitWait();
+        getDriver();
+        implicitWait();
+        Thread.sleep(3000);
+        WebDriverDeclarationGenericMethods.driver.get(url);*/
     }
 
     public void implicitWait() {
@@ -109,7 +117,7 @@ public class WebDriverDeclarationGenericMethods {
     }
 
     public void Clicking(WebElement element) {
-        System.out.println("Iam with webdriver ");
+       // System.out.println("Iam with webdriver ");
         element.click();
     }
 
@@ -132,7 +140,7 @@ public class WebDriverDeclarationGenericMethods {
     }
 
     public void closeDriver() {
-        getDriver().close();
+        getDriver().quit();
     }
 
     public void acceptAlert() {
@@ -141,4 +149,5 @@ public class WebDriverDeclarationGenericMethods {
     public void dismissAlert(){
         getDriver().switchTo().alert().dismiss();
     }
+
 }

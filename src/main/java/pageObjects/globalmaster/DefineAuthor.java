@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import static supportClass.GenericBaseClass.*;
-import supportClass.GenericBaseClass.*;
 import static supportClass.LogFile.*;
 public class DefineAuthor {
 
@@ -13,6 +12,7 @@ public class DefineAuthor {
         pack = gm.getPackage(this.getClass().getPackage().getName());
         file = gm.getFilePath(page, pack);
         PageFactory.initElements(d, this);
+
     }
     public void openGlobalmaster(){
         System.out.println("path of file "+file);
@@ -44,16 +44,18 @@ public class DefineAuthor {
 
     public void validateSaveText()throws Exception{
         Error_log.info("Entered validate savetext method ");
+        dm.switchToParentWindow();
         String text=dm.getElement(file,"savemessage").getText();
         Thread.sleep(3000);
-        String headtext = dm.getElement(file,"saveHeadingmessage").getText();
         System.out.println("text*** "+text);
+       // String headtext = dm.getElement(file,"saveHeadingmessage").getText();
+        //System.out.println("headtext*** "+headtext);
         dm.implicitWait();
         try {
             Thread.sleep(3000);
            validation.validateField(gm.readProperty(file, "savedsuccessfullymessage"), text);
            Thread.sleep(3000);
-           validation.checkHeading(gm.readProperty(file,"saveHeading"),text);
+         //  validation.checkHeading(gm.readProperty(file,"saveHeading"),headtext);
 
         }
         catch(Exception e)
@@ -66,4 +68,19 @@ public class DefineAuthor {
         dm.Clicking(ok);
 
     }
+    public void checkmenustatus(WebElement status){
+        String attribute=status.getAttribute("class");
+        Error_log.info("Entered in checkmenu status. Now the class attribute value is " +attribute);
+        boolean active_status= genericPageMethods.gloMasterOpen(attribute);
+        Error_log.debug("Status got from method is "+active_status);
+        if (active_status==true){
+           Error_log.debug("Entered the other text ");
+        }
+        else
+            Error_log.info("Not to do anything just hit author menu now ");
+            dm.implicitWait();
+            openGlobalmaster();
+            dm.implicitWait();
+            openAuthor();
+        }
 }

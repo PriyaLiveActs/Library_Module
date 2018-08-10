@@ -46,13 +46,14 @@ public class TestSteps extends GenericBaseClass{
     @When("^User Open Define Author Page$")
     public void user_Open_Define_Author_Page() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        Error_log.info("Open Define Author page ");
+        Error_log.info("Open Define Author page , Now chck whether menyu is opened or not");
         dm.implicitWait();
-        new DefineAuthor(driver).openGlobalmaster();
+        WebElement status=dm.getElement(globalConfig,"glomasteropencheck");
+        new DefineAuthor(driver).checkmenustatus(status);
         Thread.sleep(2000);
-        new DefineAuthor(driver).openAuthor();
         //dm.Clicking(dm.getElement("glomaster"));
         dm.implicitWait();
+        System.out.println("This is autohr page");
     }
     @And("^Enter Input to \"([^\"]*)\" field$")
     public void enterInputToField(String text) throws Throwable {
@@ -72,6 +73,7 @@ public class TestSteps extends GenericBaseClass{
         new DefineAuthor(driver).hitSave();
         dm.implicitWait();
         dm.implicitWait();
+        Thread.sleep(5000);
         new DefineAuthor(driver).validateSaveText();
 
     }

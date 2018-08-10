@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^Go to url$",
+    "steps": [
+      {
+        "name": "Go to url",
+        "aggregatedDurations": {
+          "average": 8.871315966,
+          "median": 8.871315966
+        },
+        "durations": [
+          {
+            "duration": 8.871315966,
+            "location": "Featurefiles/globalmaster/DefineAuthor.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^hit Save Button$",
+    "steps": [
+      {
+        "name": "hit Save Button",
+        "aggregatedDurations": {
+          "average": 6.262439388,
+          "median": 6.262439388
+        },
+        "durations": [
+          {
+            "duration": 6.262439388,
+            "location": "Featurefiles/globalmaster/DefineAuthor.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify the error messages$",
+    "steps": [
+      {
+        "name": "Verify the error messages",
+        "aggregatedDurations": {
+          "average": 3.499817253,
+          "median": 3.499817253
+        },
+        "durations": [
+          {
+            "duration": 3.499817253,
+            "location": "Featurefiles/globalmaster/DefineAuthor.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Open Define Author page$",
+    "steps": [
+      {
+        "name": "User Open Define Author page",
+        "aggregatedDurations": {
+          "average": 2.278959382,
+          "median": 2.278959382
+        },
+        "durations": [
+          {
+            "duration": 2.278959382,
+            "location": "Featurefiles/globalmaster/DefineAuthor.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter username and pasword and click login$",
+    "steps": [
+      {
+        "name": "user enter username and pasword and click login",
+        "aggregatedDurations": {
+          "average": 2.743321583,
+          "median": 2.743321583
+        },
+        "durations": [
+          {
+            "duration": 2.743321583,
+            "location": "Featurefiles/globalmaster/DefineAuthor.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^for correct credentials it logged IN then hit go to library$",
+    "steps": [
+      {
+        "name": "for correct credentials it logged IN then hit go to library",
+        "aggregatedDurations": {
+          "average": 4.267315986,
+          "median": 4.267315986
+        },
+        "durations": [
+          {
+            "duration": 4.267315986,
+            "location": "Featurefiles/globalmaster/DefineAuthor.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
